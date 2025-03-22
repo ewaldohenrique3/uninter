@@ -1,0 +1,85 @@
+body{
+    font-family:'Georgia', serif;
+    background-color: #fdf5e6;
+    text-align:center;
+    color:#5d3b09;
+  }
+
+header{
+    background-color: #d4af37;
+    color: white;
+    text-shadow: 2px, 2px, #8b4513;
+    background-color: #8b4513;
+    border: 1px solid #d4af37;
+    border-radius: 8px;
+}
+section h2{
+    color: #8b4513;
+}
+
+section p, ul{
+    color: #5d3b09;
+    text-align: justify;
+}
+
+ul {
+  list-style-type:square;
+  text-align: left;
+  padding: 0 20px;
+}
+
+ul li{
+  margin: 5px 0;
+}
+
+footer{
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #5d3b09;
+    color:white;
+    font-size: 0.9em;
+}
+
+/*estilização da tabela*/
+table{
+    width: 80%;
+    margin: 0 auto;
+    border-collapse: collapse; 
+    background-color: #fff;
+    border: 1px solid #d4af37;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  thead {
+    background-color: #d4af37; 
+    color: white;
+  }
+  
+  thead th {
+    padding: 15px;
+    font-size: 1.1em;
+    border: 1px solid #b8860b;
+  }
+  
+  /* Estilo para as células da tabela */
+  tbody td {
+    padding: 12px;
+    border: 1px solid #d4af37;
+    text-align: center;
+    font-size: 1em;
+  }  
+
+/* Alternar cores para linhas */
+tbody tr:nth-child(odd) {
+    background-color: #fffaf0; /* Tom claro */
+  }
+  
+  tbody tr:nth-child(even) {
+    background-color: #fdf5e6; /* Outra variação*/
+  }
+  
+  /* Alteração ao passar o mouse sobre a linha */
+  tbody tr:hover {
+    background-color: #f4e2c7;
+    cursor: pointer;
+  }
